@@ -22,6 +22,15 @@ authors:
 repository-code: "https://github.com/gaelbernard/2025-07-10-ethBiblio"
 license: MIT
 version: 1.0.0
+date-released: 2026-10-28
+doi: 10.5281/zenodo.23728219
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23728219
+    description: "Version 1.0.0"
+  - type: doi
+    value: 10.5281/zenodo.23728218
+    description: "All versions (resolves to the latest)"
 keywords:
   - bibliometrics
   - OpenAlex

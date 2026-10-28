@@ -1,5 +1,7 @@
 # Open Bibliometric Study of the ETH Domain (2014–2023)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23728218.svg)](https://doi.org/10.5281/zenodo.23728218)
+
 This repository contains the code used to build the data warehouse behind the bibliometric reports of the six ETH Domain institutions (ETH Zurich, EPFL, PSI, WSL, Empa, Eawag), produced jointly by EPFL and ETH Zurich for the ETH Board.
 
 In short, the pipeline:
@@ -72,7 +74,7 @@ Scripts are run from their own folder (paths are relative), in this order: `1_da
 
 ## Citation
 
-Citation metadata is in [`CITATION.cff`](CITATION.cff) (GitHub shows it under "Cite this repository").
+The code is archived on Zenodo. To cite release v1.0.0, use [10.5281/zenodo.23728219](https://doi.org/10.5281/zenodo.23728219); [10.5281/zenodo.23728218](https://doi.org/10.5281/zenodo.23728218) always resolves to the latest version. Citation metadata is in [`CITATION.cff`](CITATION.cff) (GitHub shows it under "Cite this repository").
 
 ## License
 
