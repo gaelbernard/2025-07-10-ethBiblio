@@ -1,0 +1,27 @@
+# Allow-list: everything is ignored by default and only code and documentation are tracked.
+# This keeps data out of the repository (OpenAlex snapshot, library publication lists,
+# matching outputs, staging Parquet, DuckDB files, gender cache, patent data, ...).
+*
+!*/
+!*.py
+!*.md
+!requirements.txt
+!.gitignore
+!.env.example
+!LICENSE
+!modules/match/doc/match-conceptual.png
+!eth_domain_2025/3_dwh/2_diagram/diagram.jpg
+!eth_domain_2025/3_dwh/2_diagram/diagram.pdf
+
+# Never tracked, even if they match a rule above
+.env
+.venv/
+.idea/
+__pycache__/
+eth_domain_2025/1_data/snapshot_*/
+eth_domain_2025/2_matches/*/input/
+eth_domain_2025/2_matches/*/final_match/
+eth_domain_2025/3_dwh/1_build/1_staging_area/
+eth_domain_2025/3_dwh/1_build/gender/
+eth_domain_2025/3_dwh/1_build/duckdb_tmp/
+eth_domain_2025/5_rec/
