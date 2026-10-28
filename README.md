@@ -70,6 +70,10 @@ export PYTHONPATH="$(pwd)"         # scripts import from modules/
 
 Scripts are run from their own folder (paths are relative), in this order: `1_data`, then `2_matches`, then `3_dwh/1_build`. The library publication lists must be placed in `eth_domain_2025/2_matches/<institution>/input/` beforehand.
 
+## Citation
+
+Citation metadata is in [`CITATION.cff`](CITATION.cff) (GitHub shows it under "Cite this repository").
+
 ## License
 
 The code is released under the [MIT License](LICENSE). The data sources keep their own terms: OpenAlex data is CC0, and the Reliance on Science and Genderize.io terms apply to their data.

@@ -9,6 +9,7 @@
 !.gitignore
 !.env.example
 !LICENSE
+!CITATION.cff
 !modules/match/doc/match-conceptual.png
 !eth_domain_2025/3_dwh/2_diagram/diagram.jpg
 !eth_domain_2025/3_dwh/2_diagram/diagram.pdf

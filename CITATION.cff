@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata from this file."
+type: software
+title: "Open Bibliometric Study of the ETH Domain (2014–2023): data warehouse pipeline"
+abstract: >-
+  Code used to build the data warehouse behind the bibliometric reports of the
+  six ETH Domain institutions (ETH Zurich, EPFL, PSI, WSL, Empa, Eawag). It
+  downloads an OpenAlex snapshot (3 September 2025), keeps in-scope works,
+  matches them against the publication lists provided by the institutional
+  libraries, adds metrics missing from OpenAlex (e.g. author gender, patent
+  citations) and builds a DuckDB database with field-normalised citation
+  indicators.
+authors:
+  - given-names: Alexander
+    family-names: Ehlert
+    affiliation: "ETH Library, ETH Zurich"
+  - given-names: Gaël
+    family-names: Bernard
+    affiliation: "EPFL"
+    orcid: "https://orcid.org/0000-0001-7299-1286"
+repository-code: "https://github.com/gaelbernard/2025-07-10-ethBiblio"
+license: MIT
+version: 1.0.0
+keywords:
+  - bibliometrics
+  - OpenAlex
+  - ETH Domain
+  - citation analysis
+  - DuckDB
