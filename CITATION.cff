@@ -14,9 +14,10 @@ authors:
   - given-names: Alexander
     family-names: Ehlert
     affiliation: "ETH Library, ETH Zurich"
+    orcid: "https://orcid.org/0000-0002-0964-5871"
   - given-names: Gaël
     family-names: Bernard
-    affiliation: "EPFL"
+    affiliation: "EPFL, Institutional Data and Analytics"
     orcid: "https://orcid.org/0000-0001-7299-1286"
 repository-code: "https://github.com/gaelbernard/2025-07-10-ethBiblio"
 license: MIT
